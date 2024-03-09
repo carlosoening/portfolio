@@ -4,9 +4,13 @@ import MenuItem from './MenuItem.vue'
 
 <template>
     <div class="menu">
-        <MenuItem name="Sobre"/>
-        <MenuItem name="Projetos"/>
-        <MenuItem name="Contato"/>
+        <MenuItem name="menu.about"/>
+        <MenuItem name="menu.projects"/>
+        <MenuItem name="menu.contact"/>
+        <div>
+            <button @click="changeLocale('pt_BR')">PT</button>
+            <button @click="changeLocale('en')">EN</button>
+        </div>
     </div> 
 </template>
 
@@ -21,3 +25,13 @@ import MenuItem from './MenuItem.vue'
         margin: 0 100px 0 100px
     }
 </style>
+
+<script>
+export default {
+    methods: {
+        changeLocale(locale) {
+            this.$i18n.locale = locale
+        }
+    }
+}
+</script>

@@ -6,7 +6,7 @@ defineProps({
 
 <template>
     <div class="menu-item">
-        <a href="#">{{ name }}</a>
+        <a href="#">{{ $t(name) }}</a>
     </div> 
 </template>
 
