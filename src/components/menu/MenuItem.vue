@@ -14,4 +14,9 @@ defineProps({
     .menu-item {
         display: flex;
     }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
 </style>

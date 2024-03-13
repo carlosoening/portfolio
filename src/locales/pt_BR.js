@@ -3,5 +3,9 @@ export const pt_BR = {
         about: 'Sobre',
         projects: 'Projetos',
         contact: 'Contato'
+    },
+    presentation: {
+        greeting: 'Oi, eu sou o Carlos',
+        me: 'Eu sou um desenvolvedor Fullstack'
     }
 }
