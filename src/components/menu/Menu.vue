@@ -19,7 +19,7 @@ import MenuItem from './MenuItem.vue'
 <style scoped>
     .wrapper {
         display: grid;
-        grid-template-columns: 80%;
+        grid-template-columns: 70%;
         justify-content: center;
     }
             
