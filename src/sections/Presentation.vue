@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper">
+    <div class="wrapper padding-vertical-80">
         <div class="presentation">
         <div class="left">
             <span class="greeting">{{ $t('presentation.greeting') }}</span>
@@ -14,16 +14,10 @@
 </template>
 
 <style scoped>
-    .wrapper {
-        display: grid;
-        grid-template-columns: 70%;
-        justify-content: center;
-    }
-
     .presentation {
         display: grid;
         grid-template-columns: 70% 30%;
-        margin: 80px 0 50px 0;
+        padding-bottom: 40px;
     }
 
     .left {

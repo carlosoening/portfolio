@@ -1,11 +1,13 @@
 <script setup>
-import Menu from './components/menu/Menu.vue'
-import Presentation from './components/Presentation.vue';
+import About from './sections/About.vue';
+import Menu from './sections/Menu.vue'
+import Presentation from './sections/Presentation.vue';
 </script>
 
 <template>
-	<div class="wrapper">
+	<div>
 		<Menu/>
 		<Presentation/>
+		<About/>
 	</div>
 </template>

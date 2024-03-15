@@ -7,5 +7,8 @@ export const pt_BR = {
     presentation: {
         greeting: 'Oi, eu sou o Carlos',
         me: 'Eu sou um desenvolvedor Fullstack'
+    },
+    about: {
+        aboutme: 'Sobre mim'
     }
 }

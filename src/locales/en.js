@@ -7,5 +7,8 @@ export const en = {
     presentation: {
         greeting: 'Hi, I\'m Carlos',
         me: 'I\'m a full stack developer'
+    },
+    about: {
+        aboutme: 'About me'
     }
 }

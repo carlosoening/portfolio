@@ -1,28 +1,22 @@
 <script setup>
-import MenuItem from './MenuItem.vue'
+import MenuItem from '../components/menu/MenuItem.vue'
 </script>
 
 <template>
     <div class="wrapper">
         <div class="menu">
-        <MenuItem name="menu.about"/>
-        <MenuItem name="menu.projects"/>
-        <MenuItem name="menu.contact"/>
-        <div>
-            <button @click="changeLocale('pt_BR')">PT</button>
-            <button @click="changeLocale('en')">EN</button>
+            <MenuItem name="menu.about"/>
+            <MenuItem name="menu.projects"/>
+            <MenuItem name="menu.contact"/>
+            <div>
+                <button @click="changeLocale('pt_BR')">PT</button>
+                <button @click="changeLocale('en')">EN</button>
+            </div>
         </div>
-    </div>
     </div> 
 </template>
 
-<style scoped>
-    .wrapper {
-        display: grid;
-        grid-template-columns: 70%;
-        justify-content: center;
-    }
-            
+<style scoped>   
     .menu {
         display: flex;
         flex-direction: row;

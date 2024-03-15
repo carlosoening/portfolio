@@ -9,3 +9,13 @@
 .bg-gray {
   background-color: #F9FAFB;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 70%;
+  justify-content: center;
+}
+
+.padding-vertical-80 {
+  padding: 80px 0 80px 0;
+}
